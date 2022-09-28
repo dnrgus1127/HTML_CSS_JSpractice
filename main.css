@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+* {
+    /* font-family: 'Passions Conflict', cursive;  */
+    font-family: 'Anton', sans-serif;
+
+}
+body {
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+ display: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.box{
+  -ms-overflow-style: none;
+}
+.box::-webkit-scrollbar{
+ display:none;
+}
+
+body, div , li, ul, p{
+    padding: 0;
+    margin: 0;
+}
+
+li, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    /* background-color: green; */
+    height: 100vh;
+}
+
+
+.backgroundColor {
+    /* background-color: rgb(143, 134, 134); */
+    background-color: rgb(50,50,50);
+}
+
+.testArea {
+    background-color: red;
+}
+
+
+#container-top {
+    width: 100%;
+    
+}
+
+/* header */
+
+.header {
+    justify-content: space-between;
+}
+
+
+#header-main {
+    height: 80px;
+    padding: 0 4%;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+
+
+#wrapper-headerline{
+    width: 100%;
+    height: 100%;
+    border : 1px solid rgba(255, 255, 255, .3);
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    color: white;
+    padding-top: 16px;
+}
+
+#logo {
+    margin-left: 16px;
+}
+
+.GNB {
+    display: flex;
+    
+}
+
+.GNB li {
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.GNB li:hover {
+    color: grey;
+}
+
+
+@media screen and (max-width : 840px){
+    #wrapper-headerline {
+        font-size:  20px;
+        padding-top: 0;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    .GNB li {
+        margin-right: 0;
+    }
+
+    .GNB {
+        align-items: center;
+        justify-content: space-between;
+        margin : 24px;
+        width: 100%;
+    }
+}
+
+
+/* body */
+
+#wrapper-main-text {
+    padding-top: 64px;
+    width: 100%;
+
+}
+
+.text {
+    font-size : 80px;
+    color: white;
+    text-align: center;
+
+}
+
+#body-main {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper-body {
+    width: 92%;
+    height: 100%;
+    margin : 4%;
+    margin-top: 0;
+    border: 1px solid rgba(255,255,255,.3);
+    border-top: none;
+    border-bottom: none;
+}
+
+#girl {
+    position: absolute;
+    top:0;
+    right:32px;
+    width: 33%;
+    height: auto;
+    
+
+}
+
+#textAndImg {
+    margin-top: 64px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    top:0;
+    left: 0;
+
+}
+
+#text-middle {
+    font-size : 60px;
+    position: absolute;
+    top: 64px;
+    left: 96px;
+}
+
+
+/* footer */
+#footer {
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+    height: 360px;
+    padding: 4%;
+    padding-top: 0;
+}
+
+#wrapper-footer {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(50,50,50);
+    border-top: none;
+}
